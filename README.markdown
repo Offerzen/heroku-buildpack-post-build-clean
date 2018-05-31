@@ -21,6 +21,11 @@ image assets, along with a large installation of node modules, all of
 which are used only for building the production assets, but then remain
 part of the slug.
 
+## Source Maps
+
+This version of the build pack is intended to handle sourcemaps, which are no longer needed after build.
+It goes nuclear and removes any `.map` file in the build directory.
+
 ## Usage
 
 You will need to use the [`heroku-buildpack-multi`
